@@ -139,7 +139,7 @@ The algorithms were executed across growing problem sizes ($n = 10$ to $n = 10,0
 The system automatically generates 6 high-resolution charts saved in the `../graphes/` directory:
 
 1. **`../graphes/knapsack_allocation.png`**: Dual-subplot graphic showing:
-   - Bar chart of allocation percentages ($100\%$ for Gold, Platinum, Silver, and $33.3\%$ for Bronze).
+   - Bar chart of allocation percentages ($100\%$ for Diamond, Sapphire, Ruby, and $32.0\%$ for Emerald).
    - Donut chart displaying the proportional weight saturation of the knapsack ($50/50\text{ kg}$) yielding a maximum profit of **$280.00**.
 2. **`../graphes/activity_timeline.png`**: Gantt-style schedule displaying all 8 candidate activities, highlighting the 3 mutually compatible selected tasks (**A1 [1→4]**, **A4 [5→7]**, **A8 [8→11]**) in emerald green, while graying out overlapping conflicts.
 3. **`../graphes/huffman_compression.png`**: Bar chart comparing character frequency versus assigned bit lengths. Frequently occurring characters (such as `'a'` with frequency 5) receive compact 1-bit codes, while rare characters receive 3-bit codes.

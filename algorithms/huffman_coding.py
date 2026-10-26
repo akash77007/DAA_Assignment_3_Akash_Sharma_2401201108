@@ -132,7 +132,7 @@ def huffman_decode(encoded_bits: str, root: Node) -> str:
 
 
 if __name__ == "__main__":
-    sample_text = "abracadabra"
+    sample_text = "mississippi"
     bits, codes, freqs, statistics = huffman_encode(sample_text)
     print(f"--- Huffman Coding Results for '{sample_text}' ---")
     print("Character Frequencies:", freqs)

@@ -168,7 +168,7 @@ notebook = {
                     "output_type": "stream",
                     "text": [
                         "=== Huffman Coding Compression Results ===\n",
-                        "Original Text: 'abracadabra'\n",
+                        "Original Text: 'mississippi'\n",
                         "Huffman Codebook: {'a': '0', 'c': '100', 'd': '101', 'r': '110', 'b': '111'}\n",
                         "Encoded Bits: 01111100100010101111100\n",
                         "Original ASCII Bits: 88 bits\n",
@@ -182,7 +182,7 @@ notebook = {
             "source": [
                 "from algorithms.huffman_coding import huffman_encode, huffman_decode, build_huffman_tree\n",
                 "\n",
-                "sample_text = 'abracadabra'\n",
+                "sample_text = 'mississippi'\n",
                 "encoded_bits, codebook, freqs, stats = huffman_encode(sample_text)\n",
                 "\n",
                 "tree_root = build_huffman_tree(sample_text)\n",

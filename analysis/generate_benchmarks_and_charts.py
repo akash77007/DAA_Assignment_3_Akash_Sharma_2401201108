@@ -55,13 +55,13 @@ plt.rcParams['axes.linewidth'] = 0.8
 # ==============================================================================
 def generate_knapsack_chart():
     items = [
-        {"name": "Diamond", "weight": 8, "value": 72},
-        {"name": "Ruby", "weight": 18, "value": 90},
-        {"name": "Emerald", "weight": 28, "value": 112},
-        {"name": "Sapphire", "weight": 12, "value": 96},
-        {"name": "Topaz", "weight": 22, "value": 44},
+        {"name": "Diamond", "weight": 12, "value": 84},
+        {"name": "Ruby", "weight": 15, "value": 75},
+        {"name": "Emerald", "weight": 25, "value": 125},
+        {"name": "Sapphire", "weight": 20, "value": 110},
+        {"name": "Topaz", "weight": 18, "value": 54},
     ]
-    capacity = 45
+    capacity = 55
     total_val, allocation = fractional_knapsack(items, capacity=capacity)
 
     names = [x[0] for x in allocation]
@@ -173,7 +173,7 @@ def generate_activity_timeline():
 # 3. VISUALIZATION 3: Huffman Coding Compression Statistics
 # ==============================================================================
 def generate_huffman_chart():
-    text = "abracadabra"
+    text = "mississippi"
     encoded_bits, codebook, freqs, stats = huffman_encode(text)
 
     chars = sorted(freqs.keys(), key=lambda ch: freqs[ch], reverse=True)
@@ -229,7 +229,7 @@ def generate_huffman_chart():
 # 4. VISUALIZATION 4: Huffman Tree Visual Representation
 # ==============================================================================
 def generate_huffman_tree_diagram():
-    text = "abracadabra"
+    text = "mississippi"
     root = build_huffman_tree(text)
 
     # Assign positions to nodes using recursive depth and breadth
@@ -292,7 +292,7 @@ def generate_huffman_tree_diagram():
 
     ax.set_xlim(-0.5, 10.5)
     ax.set_ylim(-0.5, 6.0)
-    ax.set_title("Optimal Huffman Binary Prefix Tree for 'abracadabra'\nStudent: Akash Sharma (2401201108) | Faculty: Dr. Aarti",
+    ax.set_title("Optimal Huffman Binary Prefix Tree for 'mississippi'\nStudent: Akash Sharma (2401201108) | Faculty: Dr. Aarti",
                  fontsize=11, fontweight='bold', pad=12)
 
     # Legend

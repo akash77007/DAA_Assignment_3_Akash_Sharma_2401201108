@@ -50,13 +50,13 @@ def menu_fractional_knapsack():
 
     if choice == "1":
         items = [
-            {"name": "Diamond / Server Compute Cluster", "weight": 8, "value": 72},
-            {"name": "Ruby / High-Bandwidth Cloud", "weight": 18, "value": 90},
-            {"name": "Emerald / Storage Array", "weight": 28, "value": 112},
-            {"name": "Sapphire / GPU Acceleration Unit", "weight": 12, "value": 96},
-            {"name": "Topaz / Backup Power Grid", "weight": 22, "value": 44},
+            {"name": "Diamond / Server Compute Cluster", "weight": 12, "value": 84},
+            {"name": "Ruby / High-Bandwidth Cloud", "weight": 15, "value": 75},
+            {"name": "Emerald / Storage Array", "weight": 25, "value": 125},
+            {"name": "Sapphire / GPU Acceleration Unit", "weight": 20, "value": 110},
+            {"name": "Topaz / Backup Power Grid", "weight": 18, "value": 54},
         ]
-        capacity = 45.0
+        capacity = 55.0
     elif choice == "2":
         try:
             num = int(input("Enter number of items/resources: "))
@@ -162,7 +162,7 @@ def menu_huffman_coding():
     print("  [3] DATA COMPRESSION MODULE : HUFFMAN CODING ALGORITHM  ")
     print("  Greedy Strategy: Frequency-based Min-Priority Tree | O(n log n)")
     print("-" * 75)
-    print("1. Run with Classic Benchmark String: 'abracadabra'")
+    print("1. Run with Classic Benchmark String: 'mississippi'")
     print("2. Run with Natural Language University Text Sample")
     print("3. Enter Custom String Manually")
     print("4. Return to Main Menu")
@@ -170,7 +170,7 @@ def menu_huffman_coding():
     choice = input("Select an option (1-4): ").strip()
 
     if choice == "1":
-        text = "abracadabra"
+        text = "mississippi"
     elif choice == "2":
         text = "design and analysis of algorithms smart resource allocation system using greedy methods"
     elif choice == "3":
