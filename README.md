@@ -143,3 +143,5 @@ jupyter notebook notebooks/project_notebook.ipynb
 * **School:** School of Engineering and Technology (SOET)
 * **Institution:** K.R. Mangalam University, Gurugram, Haryana
 * **Faculty In-Charge:** Dr. Aarti
+
+Assignment maintained and submitted by Akash Sharma.
